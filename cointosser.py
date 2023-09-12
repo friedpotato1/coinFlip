@@ -1,5 +1,6 @@
 import random,pyinputplus as pyip,sys,time
 try:
+    print(" To exit press Ctrl + C ")
     while True:
         choice = random.randint(0,1)
         option = pyip.inputMenu(['Heads','Tails'],numbered='True')
